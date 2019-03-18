@@ -11,7 +11,7 @@ def low():
 
     low = string.ascii_uppercase + string.ascii_lowercase
     medium = string.digits+ string.ascii_uppercase + string.ascii_lowercase
-    symbols = string.digits + string.ascii_lowercase + string.ascii_uppercase + "!@#$%^&*()~_][}{=+<>?/:;\|"
+    symbols = string.digits + string.ascii_lowercase + string.ascii_uppercase + string.punctuation
     password = ""
 
     if var.get() == 1:
